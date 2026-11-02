@@ -1,6 +1,6 @@
 package test_fonctionnel;
 
-import personnages.Equipement;
+import objets.Equipement;
 import personnages.Romain;
 
 public class TestEquipement {

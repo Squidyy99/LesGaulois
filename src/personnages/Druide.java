@@ -29,7 +29,7 @@ public class Druide {
         parler("J'ai concocté " + nbDoses + " doses de potion magique. Elle a une force de " + forcePotion + ".");
     }
 
-    public void boosterGaulois(Gaulois gaulois) {
+    public void booster(Gaulois gaulois) {
         if ("Obélix".equals(gaulois.getNom())) {
             parler("Non, Obélix Non !... Et tu le sais très bien !");
         } else {

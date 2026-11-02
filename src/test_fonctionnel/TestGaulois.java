@@ -26,8 +26,8 @@ public class TestGaulois {
         Druide panoramix = new Druide("Panoramix", 2);
         
         panoramix.fabriquerPotion(4, 3);
-        panoramix.boosterGaulois(obelix);
-        panoramix.boosterGaulois(asterix);
+        panoramix.booster(obelix);
+        panoramix.booster(asterix);
         
         for (int i = 0; i < 3; i++) {
             asterix.frapper(brutus);
